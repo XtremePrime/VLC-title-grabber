@@ -23,7 +23,7 @@ int main(int argc, char** argv)
     while(run)
     {
         Sleep(1);
-        if((GetActiveWindowTitle().find("VLC") != std::string::npos) && (GetActiveWindowTitle().find("Digitally Imported") == std::string::npos))
+        if((GetActiveWindowTitle().find("VLC media player") != std::string::npos) && (GetActiveWindowTitle().find("Digitally Imported") == std::string::npos))
         {
             title = GetActiveWindowTitle();
             Sleep(100);
